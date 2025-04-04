@@ -1,3 +1,36 @@
+# En primer lugar, importamos las librerías que nos harán falta, desde el soporte:
+
+# Para tratamiento de datos
+
+import pandas as pd 
+import numpy as np 
+
+# Procesos de imputación
+
+from sklearn.impute import SimpleImputer
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
+from sklearn.impute import KNNImputer
+
+# Visuaicación de resultados
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Evaluar linealidad de las relaciones entre las variables
+# y la distribución de las variables
+# ------------------------------------------------------------------------------
+#import scipy.stats as stats
+import scipy.stats as stats
+from scipy.stats import shapiro, poisson, chisquare, expon, kstest
+
+import itertools
+"""librería estándar de Python que contiene herramientas para manejar combinaciones,
+permutaciones y otras operaciones sobre iterables"""
+
+# Gestión de los warnings
+import warnings
+warnings.filterwarnings("ignore")
 
 # Revisión de columnas
 
