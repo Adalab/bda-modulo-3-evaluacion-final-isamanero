@@ -19,7 +19,7 @@ En este archivo combinado, se observa que todos los valores tienen un 0% de nulo
 Se realizaron análisis visuales, que pueden observarse en la carpeta "Imágenes y gráficos"
 
 Podemos ver ejemplos como un gráfico de distrbución que muestra que los meses con mayorcantidad de vuelos reservados son de media los meses de junio, julio, agosto y diciembre.
-![image](https://github.com/Adalab/bda-modulo-3-evaluacion-final-isamanero/blob/main/Im%C3%A1genes%20y%20gr%C3%A1ficas/Distribuci%C3%B3n%20de%20la%20cantidad%20de%20vuelos%20reservados%20por%20mes%20durante%20el%202017%20y%202018.jpg)
+![image](bda-modulo-3-evaluacion-final-isamanero\Imágenes y gráficas\Distribución de la cantidad de vuelos reservados por mes durante el 2017 y 2018.jpg)
 
 ### 5. BONUS. Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
 Se evaluaron las diferencias en el número de vuelos reservados entre distintos niveles educativos (Bachelor, College, Master, High School or Below, Doctor). Para ello, se realizaron pruebas estadísticas de hipótesis para comparar los grupos, identificando diferencias significativas entre los niveles educativos.
