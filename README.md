@@ -1,19 +1,12 @@
 # Análisis Exploratorio de Datos (EDA) del Programa de Lealtad de una Aerolínea
 ## Descripción
-Este informe técnico describe el análisis exploratorio de datos (EDA) realizado sobre un conjunto de datos que describe el comportamiento de los clientes dentro de un programa de lealtad de una aerolínea. Los datos se dividen en dos archivos:
+Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 realizado sobre un conjunto de datos que describe el comportamiento de los clientes dentro de un programa de lealtad de una aerolínea 🛩️ Los datos se dividen en dos archivos:
 
-Customer Flight Analysis.csv: Contiene información sobre la actividad de vuelo de los clientes, incluyendo vuelos reservados, distancia volada, puntos acumulados y redimidos, y costes asociados a los puntos redimidos.
+📄Customer Flight Analysis.csv: Contiene información sobre la actividad de vuelo de los clientes, incluyendo vuelos reservados, distancia volada, puntos acumulados y redimidos, y costes asociados a los puntos redimidos.
 
-Customer Loyalty History.csv: Proporciona el perfil detallado de los clientes, como su ubicación, nivel educativo, ingresos, y detalles sobre su membresía en el programa de lealtad.
+📄Customer Loyalty History.csv: Proporciona el perfil detallado de los clientes, como su ubicación, nivel educativo, ingresos, y detalles sobre su membresía en el programa de lealtad.
 
 ## Objetivos del Estudio
-Exploración inicial de los datos: Examinar las características generales de los datos para entender su estructura.
-
-Limpieza de datos: Identificar y tratar problemas de calidad en los datos, como valores nulos y duplicados.
-
-Visualización y resultados: Generar visualizaciones para resumir y analizar los patrones observados en los datos.
-
-Bonus: Evaluación de diferencias en las reservas de vuelos según el nivel educativo de los clientes.
 
 ### 1. Exploración Inicial de los Datos
 Customer Flight Analysis.csv
