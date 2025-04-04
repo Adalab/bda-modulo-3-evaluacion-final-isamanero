@@ -31,3 +31,4 @@ Los datos se limpiaron adecuadamente y se combinaron en un solo archivo para fac
 
 Se realizaron análisis visuales efectivos para explorar las variables clave y se descubrieron patrones importantes en el comportamiento de los clientes dentro del programa de lealtad. Como: 
 
+Acceso al archibo .ipynb: [pinche aquí](https://github.com/Adalab/bda-modulo-3-evaluacion-final-isamanero/blob/main/EDA.ipynb)
