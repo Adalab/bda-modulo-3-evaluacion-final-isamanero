@@ -12,9 +12,13 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 ![image](Imágenes%20y%20gráficas/parte_documentacion.png)
 
 **🧹 Resumen y preprocesamiento de los datos**
+
 -Se realizaron comprobaciones iniciales para verificar la calidad y consistencia de los datos.
+
 -Los valores nulos en la columna de **"Cancellation Month/Year"** se dejaron sin modificar, con la idea de que puedan completarse más adelante si se dispone de la información.
+
 -En la columna **"Salary"**, los datos nulos fueron imputados utilizando la mediana. Esta decisión se tomó porque no afectaba significativamente al análisis, pero se recomienda tener en cuenta que estos valores son _"ficticios"_ para estudios futuros.
+
 -Se creó una nueva columna **"Enrollment date"** combinando mes y año, con el objetivo de facilitar análisis temporales posteriores.
 
 ### 3. Unión de Datos
