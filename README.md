@@ -20,6 +20,7 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 -En la columna **"Salary"**, los datos nulos fueron imputados utilizando la mediana. Esta decisión se tomó porque no afectaba significativamente al análisis, pero se recomienda tener en cuenta que estos valores son _"ficticios"_ para estudios futuros.
 
 -Se creó una nueva columna **"Enrollment date"** combinando mes y año, con el objetivo de facilitar análisis temporales posteriores.
+-Se creó una nueva columna **Loyalty Status** que valora el estado del cliente respecto a las cancelaciones en Activo/Inactivo.
 
 ### 3. Unión de Datos 👉👈
 Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
