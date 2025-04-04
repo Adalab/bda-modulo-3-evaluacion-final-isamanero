@@ -8,14 +8,8 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 
 ## Objetivos del Estudio 📝
 
-### 1. Exploración Inicial de los Datos y 2. Limpieza de datos
+### 1. Exploración Inicial de los Datos y 2. Limpieza de datos (DOCUMENTACIÓN)
 ![image](https://github.com/user-attachments/assets/40de19dc-df31-4ad4-a526-b897348bdc2a)
-
-Se ha realizado una visualización para comprobar si la imputación de nulos, por la mediana, en el salario respecto al nivel educativo, altera de forma significativa el análisis:
-
-![image](https://github.com/Adalab/bda-modulo-3-evaluacion-final-isamanero/blob/main/Im%C3%A1genes%20y%20gr%C3%A1ficas/Comparaci%C3%B3n%20College.jpg)
-
-Se puede observar que los datos se mantienen homogéneos, y a su vez hemos solucionado el problema de nulos.
 
 ### 3. Unión de Datos
 Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
@@ -23,6 +17,9 @@ En este archivo combinado, se observa que todos los valores tienen un 0% de nulo
 
 ### 4. Visualización y Resultados 📊
 Se realizaron análisis visuales, que pueden observarse en la carpeta "Imágenes y gráficos"
+
+Podemos ver ejemplos como un gráfico de distrbución que muestra que los meses con mayorcantidad de vuelos reservados son de media los meses de junio, julio, agosto y diciembre.
+![image]
 
 ### 5. BONUS. Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
 Se evaluaron las diferencias en el número de vuelos reservados entre distintos niveles educativos (Bachelor, College, Master, High School or Below, Doctor). Para ello, se realizaron pruebas estadísticas de hipótesis para comparar los grupos, identificando diferencias significativas entre los niveles educativos.
