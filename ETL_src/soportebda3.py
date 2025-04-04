@@ -60,6 +60,11 @@ def tiene_decimales_reales(columna):
     Devuelve el total de números genuinos (reales, ej: 23.5)
     """
     return ((columna %1)!= 0).sum()
+"""
+columna %1 --> obtiene el residuo de dividir cada valor de la columna por 1
+y lo compara con que sea diferente a 0 con !=0
+sum() nos saca cuantos hay
+ """
 
 
 
