@@ -13,7 +13,10 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 
 Se ha realizado una visualización para comprobar si la imputación de nulos, por la mediana, en el salario respecto al nivel educativo, altera de forma significativa el análisis:
 
-![image]
+![image](https://github.com/Adalab/bda-modulo-3-evaluacion-final-isamanero/blob/main/Im%C3%A1genes%20y%20gr%C3%A1ficas/Comparaci%C3%B3n%20College.jpg)
+
+Se puede observar que los datos se mantienen homogéneos, y a su vez hemos solucionado el problema de nulos.
+
 ### 3. Unión de Datos
 Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
 En este archivo combinado, se observa que todos los valores tienen un 0% de nulos, excepto las columnas relacionadas con la cancelación de vuelos (Cancellation Year y Cancellation Month), que tienen un 87.66% de nulos.
