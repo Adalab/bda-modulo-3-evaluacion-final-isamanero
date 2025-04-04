@@ -32,8 +32,12 @@ permutaciones y otras operaciones sobre iterables"""
 import warnings
 warnings.filterwarnings("ignore")
 
-# Revisión de columnas
 
+
+
+# FUNCIONES
+
+# Revisión de valores atípicos
 def revision_v_unicos(df):
     """
     Me permite revisar los valore únicos de un DataFrame
@@ -46,18 +50,20 @@ def revision_v_unicos(df):
         
         print(f"Valores únicos en la columna '{c}':\n{df[c].unique()}\n")
 
-
+# Revisión decimales reales
 def tiene_decimales_reales(columna):
     """
-    Revisión de decimales reales en la columna
-    Me retorna el numero de datos con decimales reales que hay.
-    Ejemplo 23.5....45.6...
+    Revisión de valores en una serie de datos si
+    son números decimales genuinos o si son simplemente
+    números redondeados.
+
+    Devuelve el total de números genuinos (reales, ej: 23.5)
     """
     return ((columna %1)!= 0).sum()
 
 
 
-# vamos a definir una función para poder hacer el t-test de Student
+# Función para hipótesis
 def prueba_hipotesis(*args):
     """
     Realiza una prueba de hipótesis para comparar grupos.
@@ -134,20 +140,21 @@ def prueba_hipotesis(*args):
 
     return resultado
 
-def probar_combinaciones(df, columna_educacion, columna_vuelos, funcion_prueba):
+#Función para realizar múltiples pruebas de hipótesis (función anterior)
+def probar_combinaciones(df, columna_1, columna_2, funcion_prueba):
     """
-    Función para probar todas las combinaciones posibles entre grupos educativos
+    Función para probar todas las combinaciones posibles entre grupos
     usando una función de prueba de hipótesis.
 
     Parámetros:
     df (DataFrame): El DataFrame con los datos.
-    columna_educacion (str): El nombre de la columna que contiene el nivel educativo.
-    columna_vuelos (str): El nombre de la columna que contiene el número de vuelos reservados.
+    columna_1 (str): Columna 1 a comparar
+    columna_2 (str): El nombre de la columna que hace referencia
     funcion_prueba (function): La función que realizará la prueba de hipótesis entre dos grupos.
     """
     # Crear un diccionario para cada grupo educativo con sus respectivos datos de vuelos reservados
-    grupos = {nombre: df[df[columna_educacion] == nombre][columna_vuelos] 
-              for nombre in df[columna_educacion].unique()}
+    grupos = {nombre: df[df[columna_1] == nombre][columna_2] 
+              for nombre in df[columna_1].unique()}
 
     # Probar todas las combinaciones de dos grupos
     for (nombre1, datos1), (nombre2, datos2) in itertools.combinations(grupos.items(), 2):
