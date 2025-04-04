@@ -11,6 +11,9 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 ### 1. Exploración Inicial de los Datos y 2. Limpieza de datos
 ![image](https://github.com/user-attachments/assets/40de19dc-df31-4ad4-a526-b897348bdc2a)
 
+Se ha realizado una visualización para comprobar si la imputación de nulos, por la mediana, en el salario respecto al nivel educativo, altera de forma significativa el análisis:
+
+![image]
 ### 3. Unión de Datos
 Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
 En este archivo combinado, se observa que todos los valores tienen un 0% de nulos, excepto las columnas relacionadas con la cancelación de vuelos (Cancellation Year y Cancellation Month), que tienen un 87.66% de nulos.
