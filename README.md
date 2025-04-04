@@ -9,6 +9,8 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 ## Objetivos del Estudio
 
 ### 1. Exploración Inicial de los Datos
+![image](https://github.com/user-attachments/assets/40de19dc-df31-4ad4-a526-b897348bdc2a)
+
 Customer Flight Analysis.csv
 Dimensiones: (405,624 filas, 10 columnas)
 
