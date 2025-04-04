@@ -11,6 +11,10 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 ### 1. Exploración Inicial de los Datos y 2. Limpieza de datos (DOCUMENTACIÓN)
 ![image](Imágenes%20y%20gráficas/parte_documentacion.png)
 
+### 3. Unión de Datos 👉👈
+Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
+En este archivo combinado, se observa que todos los valores tienen un 0% de nulos, excepto las columnas relacionadas con la cancelación de vuelos (Cancellation Year y Cancellation Month), que tienen un 87.66% de nulos.
+
 **🧹 Resumen y preprocesamiento de los datos**
 
 -Se realizaron comprobaciones iniciales para verificar la calidad y consistencia de los datos.
@@ -20,11 +24,8 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 -En la columna **"Salary"**, los datos nulos fueron imputados utilizando la mediana. Esta decisión se tomó porque no afectaba significativamente al análisis, pero se recomienda tener en cuenta que estos valores son _"ficticios"_ para estudios futuros.
 
 -Se creó una nueva columna **"Enrollment date"** combinando mes y año, con el objetivo de facilitar análisis temporales posteriores.
--Se creó una nueva columna **Loyalty Status** que valora el estado del cliente respecto a las cancelaciones en Activo/Inactivo.
 
-### 3. Unión de Datos 👉👈
-Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
-En este archivo combinado, se observa que todos los valores tienen un 0% de nulos, excepto las columnas relacionadas con la cancelación de vuelos (Cancellation Year y Cancellation Month), que tienen un 87.66% de nulos.
+-Se creó una nueva columna **Loyalty Status** que valora el estado del cliente respecto a las cancelaciones en Activo/Inactivo.
 
 ### 4. Visualización y Resultados 📊
 Se realizaron análisis visuales, que pueden observarse en la carpeta "Imágenes y gráficos"
