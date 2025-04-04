@@ -9,7 +9,8 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 ## Objetivos del Estudio 📝
 
 ### 1. Exploración Inicial de los Datos y 2. Limpieza de datos (DOCUMENTACIÓN)
-![image](Imágenes y gráficas/parte_documentacion.png)
+![image](Imágenes%20y%20gráficas/parte_documentacion.png)
+
 
 ### 3. Unión de Datos
 Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
