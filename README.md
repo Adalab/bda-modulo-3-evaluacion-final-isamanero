@@ -21,7 +21,7 @@ Este informe técnico describe el análisis exploratorio de datos (EDA) 📋 rea
 
 -Se creó una nueva columna **"Enrollment date"** combinando mes y año, con el objetivo de facilitar análisis temporales posteriores.
 
-### 3. Unión de Datos
+### 3. Unión de Datos 👉👈
 Los dos conjuntos de datos fueron unidos en un solo archivo denominado Flight_Loyalty(union).csv.
 En este archivo combinado, se observa que todos los valores tienen un 0% de nulos, excepto las columnas relacionadas con la cancelación de vuelos (Cancellation Year y Cancellation Month), que tienen un 87.66% de nulos.
 
@@ -31,16 +31,17 @@ Se realizaron análisis visuales, que pueden observarse en la carpeta "Imágenes
 Podemos ver ejemplos como un gráfico de distrbución que muestra que los meses con mayorcantidad de vuelos reservados son de media los meses de junio, julio, agosto y diciembre.
 ![image](Imágenes%20y%20gráficas/Distribución%20de%20la%20cantidad%20de%20vuelos%20reservados%20por%20mes%20durante%20el%202017%20y%202018.jpg)
 
-### 5. BONUS. Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo
+### 5. BONUS. Evaluación de Diferencias en Reservas de Vuelos por Nivel Educativo 💻
 Se evaluaron las diferencias en el número de vuelos reservados entre distintos niveles educativos (Bachelor, College, Master, High School or Below, Doctor). Para ello, se realizaron pruebas estadísticas de hipótesis para comparar los grupos, identificando diferencias significativas entre los niveles educativos.
 
 Acceso al archivo .ipynb: [pinche aquí](https://github.com/Adalab/bda-modulo-3-evaluacion-final-isamanero/blob/main/EDA.ipynb)
 
-### Conclusiones
+### Conclusiones ✅
+
 Se detectaron algunos problemas con valores nulos, especialmente en los campos relacionados con las cancelaciones de vuelos, pero esto no afectó la calidad del análisis de clientes activos.
 
 Los datos se limpiaron adecuadamente y se combinaron en un solo archivo para facilitar el análisis.
 
-Se realizaron análisis visuales efectivos para explorar las variables clave y se descubrieron patrones importantes en el comportamiento de los clientes dentro del programa de lealtad. Como: 
+Se realizaron análisis visuales efectivos para explorar las variables clave y se descubrieron patrones importantes como por ejemplo la relación entre el programa lealtad y la variable CLV.
 
 
